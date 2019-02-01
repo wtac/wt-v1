@@ -1,0 +1,21 @@
+server:
+  port: 8087
+
+dubbo:
+  application:
+    name: wt-v1-cart
+  registry:
+    protocol: zookeeper
+    address: 192.168.2.2:2181
+
+spring:
+  thymeleaf:
+    cache: false
+#redis\u914D\u7F6E
+  redis:
+    host: 192.168.2.2
+    port: 6379
+    password: wutao
+    jedis:
+      pool:
+        max-active: 88

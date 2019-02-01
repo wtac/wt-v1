@@ -1,0 +1,21 @@
+server:
+  port: 8076
+#\u6CE8\u518C\u4E2D\u5FC3
+dubbo:
+  application:
+    name: qf-v7-cart-service
+  registry:
+    protocol: zookeeper
+    address: 192.168.2.2:2181
+  protocol:
+    port: 28107
+spring:
+#redis配置
+  redis:
+    host: 192.168.2.2
+    port: 6379
+    password: wutao
+    jedis:
+      pool:
+        max-active: 88
+

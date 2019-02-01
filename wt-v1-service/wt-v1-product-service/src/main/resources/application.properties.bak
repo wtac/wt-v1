@@ -1,0 +1,5 @@
+server.port=8070
+dubbo.application.name=qf-v7-product-service
+dubbo.registry.protocol=zookeeper
+dubbo.registry.address=192.168.79.128:2181
+dubbo.protocol.port=28111

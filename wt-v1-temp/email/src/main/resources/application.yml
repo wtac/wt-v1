@@ -1,0 +1,7 @@
+#\u914D\u7F6E\u53D1\u9001\u90AE\u4EF6\u76F8\u5173\u4FE1\u606F
+spring:
+  mail:
+    host: smtp.163.com
+    username: 13237978737@163.com
+    password: wutao123
+    default-encoding: utf-8

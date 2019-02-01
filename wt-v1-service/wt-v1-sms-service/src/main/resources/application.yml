@@ -1,0 +1,12 @@
+
+dubbo:
+  application:
+    name: wt-v1-sms-service
+  registry:
+    address: 192.168.2.2:2181
+    protocol: zookeeper
+  protocol:
+    port: 28106
+server:
+  port: 8075
+

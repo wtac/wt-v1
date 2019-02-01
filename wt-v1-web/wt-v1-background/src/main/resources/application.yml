@@ -1,0 +1,27 @@
+#配置服务端口
+server:
+  port: 8080
+#配置注册中心
+dubbo:
+  application:
+    name: wt-v1-background
+  registry:
+    protocol: zookeeper
+#开发阶段设置为false
+    address: 192.168.2.2:2181
+spring:
+  thymeleaf:
+    cache: false
+fdfs:
+  connect-timeout: 600
+  so-timeout: 1500
+  pool:
+    jmx-enabled: false
+  thumb-image:
+    width: 100
+    height: 100
+  tracker-list: 192.168.2.2:22122
+
+#图片服务器地址
+images:
+  server: http://192.168.2.2/

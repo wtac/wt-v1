@@ -1,0 +1,14 @@
+
+dubbo:
+  application:
+    name: qf-v7-product-service
+  registry:
+    protocol: zookeeper
+    address: 192.168.2.2:2181
+  protocol:
+    port: 28102
+server:
+  port: 8072
+
+template:
+  path: C:\\MyDataFile\\ideaWork\\wt-v1\\wt-v1-service\\wt-v1-item-service\\src\\main\\resources\\freemarker\\

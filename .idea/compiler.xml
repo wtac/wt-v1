@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="email" />
+        <module name="freemarker" />
+        <module name="jedis" />
+        <module name="rabbitmq" />
+        <module name="springboot-redis" />
+        <module name="weixin" />
+        <module name="wt-v1-api" />
+        <module name="wt-v1-background" />
+        <module name="wt-v1-cart" />
+        <module name="wt-v1-cart-service" />
+        <module name="wt-v1-common" />
+        <module name="wt-v1-email-service" />
+        <module name="wt-v1-entity" />
+        <module name="wt-v1-freemarker-service" />
+        <module name="wt-v1-index" />
+        <module name="wt-v1-index-service" />
+        <module name="wt-v1-item-service" />
+        <module name="wt-v1-mapper" />
+        <module name="wt-v1-product-service" />
+        <module name="wt-v1-search-service" />
+        <module name="wt-v1-serach" />
+        <module name="wt-v1-service" />
+        <module name="wt-v1-sms-service" />
+        <module name="wt-v1-sso" />
+        <module name="wt-v1-user" />
+        <module name="wt-v1-user-service" />
+        <module name="wt-v1-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="redis" target="1.8" />
+      <module name="wt-v1-freemarker-service" target="1.8" />
+      <module name="wt-v1-index-service" target="1.8" />
+      <module name="wt-v1-serach-service" target="1.8" />
+      <module name="wt-v1-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

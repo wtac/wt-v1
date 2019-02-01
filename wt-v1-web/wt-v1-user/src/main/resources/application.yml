@@ -1,0 +1,20 @@
+server:
+  port: 8084
+
+dubbo:
+  application:
+    name: wt-v1-user
+  registry:
+    protocol: zookeeper
+    address: 192.168.2.2:2181
+spring:
+  thymeleaf:
+    cache: false
+#redis配置
+  redis:
+    host: 192.168.2.2
+    port: 6379
+    password: wutao
+    jedis:
+      pool:
+        max-active: 88

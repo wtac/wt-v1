@@ -1,0 +1,19 @@
+spring:
+  mail:
+    host: smtp.163.com
+    username: 13237978737@163.com
+    password: wutao123
+    default-encoding: utf-8
+dubbo:
+  application:
+    name: wt-v1-email-service
+  registry:
+    address: 192.168.2.2:2181
+    protocol: zookeeper
+  protocol:
+    port: 28104
+email:
+  form: 13237978737@163.com
+server:
+  port: 8073
+

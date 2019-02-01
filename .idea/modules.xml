@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:/javaHttpApiDemo/javaHttpApiDemo.iml" filepath="C:/javaHttpApiDemo/javaHttpApiDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wt-v1-service/wt-v1-service.iml" filepath="$PROJECT_DIR$/wt-v1-service/wt-v1-service.iml" />
+    </modules>
+  </component>
+</project>

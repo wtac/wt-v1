@@ -1,0 +1,23 @@
+server:
+  port: 8085
+
+#dubbo配置
+dubbo:
+  application:
+    name: wt-v1-sso
+  registry:
+    address: 192.168.2.2:2181
+    protocol: zookeeper
+spring:
+  thymeleaf:
+    cache: false
+#redis
+  redis:
+    host: 192.168.2.2
+    port: 6379
+    password: wutao
+    jedis:
+      pool:
+        max-active: 8
+
+
